@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer-03</title>
+    <script src="https://kit.fontawesome.com/667417c7ec.js" crossorigin="anonymous"></script>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,200;1,300&display=swap"
+    rel="stylesheet"
+  />
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins";
+      }
+        .ww-gallery.ww-footer-menu-03 footer {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            background-color: black;
+            user-select: none;
+        }
+        
+        .ww-gallery.ww-footer-menu-03 .top-section {
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .ww-gallery.ww-footer-menu-03 .top-section .about-section{
+            margin-top: 22px;
+        }
+        
+        .ww-gallery.ww-footer-menu-03 section {
+            display: flex;
+            flex-direction: column;
+            margin: 10px 5px;
+        }
+        .ww-gallery.ww-footer-menu-03 section p{
+            color: white;
+        }
+        .ww-gallery.ww-footer-menu-03 h3 {
+            font-size: 25px;
+            color: rgb(190, 109, 122);
+            margin-bottom: 10px;
+        }
+        
+        .ww-gallery.ww-footer-menu-03 section ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .ww-gallery.ww-footer-menu-03 ul li {
+            margin-bottom: 7px;
+        }
+        
+        .ww-gallery.ww-footer-menu-03 ul a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .ww-gallery.ww-footer-menu-03 ul a:hover {
+            color: rgb(190, 109, 122);
+        }
+        
+        .ww-gallery.ww-footer-menu-03 .subscribe-section form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .ww-gallery.ww-footer-menu-03 .subscribe-section form input[type=email] {
+            width: 300px;
+            height: 50px;
+            color: black;
+            text-align: center;
+            font-size: 17px;
+            border-radius: 15px;
+            
+        }
+        .ww-gallery.ww-footer-menu-03 .subscribe-section form input[type=email]:focus {
+            outline: 1.5px solid rgb(219, 153, 26);
+            
+        }
+        
+        .ww-gallery.ww-footer-menu-03 .subscribe-section form input[type=submit] {
+            margin: 9px auto;
+            padding: 10px 30px;
+            font-size: 17px;
+            background-color: rgb(190, 109, 122);
+            color: white;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        
+        .ww-gallery.ww-footer-menu-03 .subscribe-section form input[type=submit]:hover {
+            background-color: rgb(209, 96, 115);
+        }
+        
+        hr {
+            width: 80%;
+            margin: 20px;
+        }
+        
+        .ww-gallery.ww-footer-menu-03 .social-icons {
+            display: flex;
+            width: 250px;
+            font-size: 35px;
+            margin: 5px;
+            justify-content: space-evenly;
+        }
+        
+        .ww-gallery.ww-footer-menu-03 .social-icons i {
+            color: rgb(121, 112, 112);
+        }
+        .ww-gallery.ww-footer-menu-03 .social-icons i:hover{
+            color: rgb(190, 109, 122);
+        }
+        .ww-gallery.ww-footer-menu-03 span {
+            margin: 10px;
+            color: grey;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div class="ww-gallery ww-footer-menu-03">
+    <footer>
+        <div class="top-section">
+            <section class="about-section">
+                <section>
+                    <h3>About Us</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+                </section>
+                <section>
+                    <h3>Contact Us</h3>
+                    <p>+92 0000 000 000</p>
+                    <p>abc123@gmail.com</p>
+                </section>
+            </section>
+            <section class="info-section">
+                <h3>Information</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+            </section>
+            <section class="links-section">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terns & Condition</a></li>
+                </ul>
+            </section>
+            <section class="subscribe-section">
+                <h3>Subscribe Us</h3>
+                <form action="#">
+                    <input type="email"  placeholder="Enter Your Email">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </section>
+
+        </div>
+        <hr>
+        <div class="social-icons">
+            <a href="facebook"><i class="fab fa-facebook-square"></i></a>
+            <a href="twitter"><i class="fab fa-twitter-square"></i></a>
+            <a href="instagram"><i class="fab fa-instagram-square"></i></a>
+            <a href="youtube"><i class="fab fa-youtube-square"></i></a>
+        </div>
+        <span> CopyRight &copy; FDK.com 2022</span>
+    </footer>
+</div>
+</body>
+</html>
